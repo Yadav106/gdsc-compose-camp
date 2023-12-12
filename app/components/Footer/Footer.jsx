@@ -14,9 +14,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="p-4 text-center">
-          <div className="font-semibold pb-2 border-b border-b-gray-700 text-center mx-14">
-            Quick Links
-          </div>
+          <div className="font-semibold pb-2 text-center ">Quick Links</div>
           <div className="mt-4 text-sm text-gray-500">
             <a href="https://gdsc.community.dev/thakur-college-of-engineering-and-technology/">
               Community Page
