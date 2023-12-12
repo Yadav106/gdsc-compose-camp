@@ -3,16 +3,17 @@ const Hero = () => {
   return (
     <>
       {/* Gradients */}
-      <div className="absolute w-full -z-10 -top-32 max-sm:-top-11 2xl:left-60">
-        <img src="/Ellipse 4.png" className="-z-10" alt="" />
+      <div className="absolute w-full -z-10 -top-32 max-sm:-top-11 mx-auto max-md:-top-10">
+        <img src="/Ellipse 4.png" className="-z-10  mx-auto" alt="" />
       </div>
       <div className="justify-between">
-        <div className="gradient-l absolute -z-20 max-sm:left-44"></div>
+        <div className="gradient-l absolute -z-20 max-sm:left-44 max-sm:hidden"></div>
+        <div className="gradient-r absolute -z-20"></div>
       </div>
 
       {/* Header */}
-      <div className="justify-center content-center items-center">
-        <div className=" text-6xl max-sm:text-3xl max-md:text-4xl text-center font-bold leading-snug">
+      <div className="justify-center content-center items-center px-3 mt-20">
+        <div className=" text-6xl max-sm:text-2xl max-md:text-4xl text-center font-bold leading-snug">
           Elevate Your App Design Journey <br />
           with <span className="textgrad">Jetpack Compose </span>
         </div>

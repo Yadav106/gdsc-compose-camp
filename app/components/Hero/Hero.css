@@ -1,5 +1,5 @@
 .gradient-l{
-    left: -100px;
+    left: -50px;
     transform: rotate(98deg);
     border-radius: 100%;
     width: 598px;
@@ -11,6 +11,18 @@
     .gradient-l{
         left: -200px;
     }
+  }
+
+  .gradient-r{
+    right: -10px;
+    transform: rotate(98deg);
+    border-radius: 100%;
+    width: 598px;
+    height: 404px;
+
+    background: linear-gradient(180deg, rgba(173, 172, 172, 0) 0%, rgba(153, 3, 253, 0.35) 100%);
+  filter: blur(86.6500015258789px);
+
   }
  
 .textgrad{
