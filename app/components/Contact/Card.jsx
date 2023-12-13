@@ -7,8 +7,13 @@ const Card = () => {
         return (
           <div
             key={data.id}
-            className="flex flex-col mt-4 items-center justify-between">
-            <img className="w-[160px]" src={data.img} alt="lead-img" />
+            className="flex flex-col mt-4 items-center justify-between"
+          >
+            <img
+              className="w-[200px] h-[200px] rounded-full object-cover shadow-lg"
+              src={data.img}
+              alt="lead-img"
+            />
             <div className="my-4 text-center">
               <h1>{data.name}</h1>
               <p className="text-gray-500 text-xs">{data.pos}</p>
