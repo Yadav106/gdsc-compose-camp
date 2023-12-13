@@ -10,7 +10,9 @@ const Accordion = ({ title, answer }) => {
         onClick={() => setAccordionOpen(!accordionOpen)}
         className="flex justify-between w-full"
       >
-        <span className="text-lg text-left max-sm:text-md">{title}</span>
+        <span className="text-xl text-left max-sm:text-md font-medium">
+          {title}
+        </span>
         {/* {accordionOpen ? <span>-</span> : <span>+</span>} */}
         <svg
           className="fill-indigo-500 shrink-0 ml-8"
@@ -39,7 +41,7 @@ const Accordion = ({ title, answer }) => {
         </svg>
       </button>
       <div
-        className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-500 text-md ${
+        className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-400 text-lg ${
           accordionOpen
             ? "grid-rows-[1fr] opacity-100"
             : "grid-rows-[0fr] opacity-0"
