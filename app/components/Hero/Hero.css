@@ -9,12 +9,14 @@
   }
   @media (max-width: 768px) {
     .gradient-l{
+      top: -60px;
         left: -200px;
+        transform: scale(0.5);
     }
   }
 
   .gradient-r{
-    right: -10px;
+    right: -55px;
     transform: rotate(98deg);
     border-radius: 100%;
     width: 598px;
@@ -23,6 +25,13 @@
     background: linear-gradient(180deg, rgba(173, 172, 172, 0) 0%, rgba(153, 3, 253, 0.35) 100%);
   filter: blur(86.6500015258789px);
 
+  }
+  @media (max-width: 768px) {
+    .gradient-r{
+      top: -50px;
+        right: -100px;
+        transform: scale(0.5);
+    }
   }
  
 .textgrad{

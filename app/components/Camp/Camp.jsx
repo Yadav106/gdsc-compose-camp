@@ -4,7 +4,7 @@ const Camp = () => {
   return (
     <>
       <div className="w-full flex items-center justify-between bg-gradient-to-r from-gray-950 via-gray-500 to-gray-950 h-fit p-[1px] mt-20 lg:mt-48">
-        <div className="h-fit w-full bg-gradient-to-b from-gray-950 to-[#130124] items-center justify-between px-2 py-6">
+        <div className="h-fit w-full bg-gradient-to-b from-gray-950 to-[#0f011d] items-center justify-between px-2 py-6">
           <div className="text-2xl mx-auto text-center font-semibold max-sm:text-lg">
             Why did developers Participate in Compose Camp?
           </div>
