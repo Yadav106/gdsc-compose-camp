@@ -4,8 +4,14 @@ const Footer = () => {
   return (
     <>
       <div className="grid grid-cols-3 gap-6 p-4 mt-8 border-t border-t-gray-700 w-full max-md:grid-cols-1">
-        <div className="p-4">
-          <img src="/gdsc-logo.svg" height={75} width={75} alt="" />
+        <div className="p-4 pl-24 max-md:text-center max-md:pl-0">
+          <img
+            src="/gdsc-logo.svg"
+            height={75}
+            width={75}
+            alt=""
+            className="max-md:mx-auto"
+          />
           <div className="mt-2 font-semibold">GDSC-TCET</div>
           <div className="text-sm text-gray-500">
             Dive into our collection of Jetpack Compose projects on GitHub.
@@ -21,9 +27,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="mt-2 text-sm text-gray-500">
-            <a href="https://gdsc.community.dev/thakur-college-of-engineering-and-technology/">
-              GDSC TCET
-            </a>
+            <a href="https://harshau007.github.io/gdsc-website/">GDSC TCET</a>
           </div>
         </div>
         <div className="p-4 mx-auto">
@@ -33,13 +37,19 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-2 gap-2 p-1 w-full max-sm:grid-cols-4 max-sm:">
             <div className="p-1">
-              <img src="/instagram.png" alt="" />
+              <a href="https://www.instagram.com/dsc.tcet/">
+                <img src="/instagram.png" alt="" />
+              </a>
             </div>
             <div className="p-1">
-              <img src="/github.png" alt="" />
+              <a href="https://github.com/DSC-TCET">
+                <img src="/github.png" alt="" />
+              </a>
             </div>
             <div className="p-1">
-              <img src="/linkedin.png" alt="" />
+              <a href="https://www.linkedin.com/company/dsc-tcet/">
+                <img src="/linkedin.png" alt="" />
+              </a>
             </div>
             <div className="p-1">
               <img src="/discord.png" alt="" />

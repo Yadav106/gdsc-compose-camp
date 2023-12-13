@@ -11,9 +11,9 @@ const Header = () => {
 
   return (
     <>
-      <div className="text-gray-50 w-full p-4 md:p-6 flex justify-between items-center bg-gradient-to-b from-black">
+      <div className="text-gray-50 w-full p-4 md:p-6 flex justify-between items-center bg-gradient-to-b from-black ">
         <div className="flex md:mx-12 items-center gap-2">
-          <a href="#" className="logo">
+          <a href="/" className="logo">
             <img
               className="w-4/5 md:w-full"
               src="/gdsc-logo.svg"
@@ -24,13 +24,13 @@ const Header = () => {
         </div>
         <ul className="hidden list-none gap-12 my-4 md:mx-12 text-md text-gray-400 md:flex items-center justify-between">
           <li>
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#Contact">Contact</a>
           </li>
           <li>
-            <a href="#">FAQs</a>
+            <a href="#Faq">FAQs</a>
           </li>
         </ul>
         <div
