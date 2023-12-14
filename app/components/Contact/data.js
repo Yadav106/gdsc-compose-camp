@@ -58,7 +58,7 @@ const data = [
     id: Date.now(),
     img: "/Manasraj.jpg",
     name: "Manasraj Singh",
-    pos: "Oureach Head",
+    pos: "Outreach Head",
     socials: [
       { imgUrl: "/github.svg", socialUrl: "their-social-url" },
       { imgUrl: "/instagram.svg", socialUrl: "their-social-url" },
