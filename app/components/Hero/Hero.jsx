@@ -1,4 +1,8 @@
+"use client";
 import "./Hero.css";
+import { useState } from "react";
+import "./Hero.css";
+
 const Hero = () => {
   return (
     <>
@@ -18,11 +22,15 @@ const Hero = () => {
           <span className="textgrad text-center">Jetpack Compose </span>
         </div>
         <div className="text-gray-500 mx-auto text-center max-md:text-base w-7/12 mt-2 max-sm:text-sm max-sm:w-full">
-          Androids modern UI toolkit, alongside peers at Compose Camp.
+          Android's modern UI toolkit, alongside peers at Compose Camp.
         </div>
         <div>
-          <img src="/android.png" alt="" className="mx-auto mt-4" />
-          <div className=" px-4 py-2 font-semibold bg-white rounded-full text-gray-900 text-center w-fit mx-auto cursor-pointer hover:bg-gray-900 transition-all ease-in hover:text-white">
+          <img
+            src="/android.png"
+            alt=""
+            className="mx-auto mt-4 transform ease-in-out duration-200"
+          />
+          <div className="px-4 py-2 font-semibold bg-white rounded-full text-gray-900 text-center w-fit mx-auto cursor-pointer hover:bg-gray-900 transition-all ease-in hover:text-white">
             <a href="https://developer.android.com/compose-camp">Get Started</a>
           </div>
         </div>

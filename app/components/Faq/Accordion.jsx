@@ -41,7 +41,7 @@ const Accordion = ({ title, answer }) => {
         </svg>
       </button>
       <div
-        className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-400 text-lg ${
+        className={`grid overflow-hidden transition-all duration-300 mt-1 ease-in-out text-slate-400 text-lg ${
           accordionOpen
             ? "grid-rows-[1fr] opacity-100"
             : "grid-rows-[0fr] opacity-0"
